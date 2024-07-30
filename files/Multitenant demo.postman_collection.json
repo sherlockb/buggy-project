@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "71272a0c-9ca8-4b2d-af42-6fc952739002",
+		"name": "Multitenant demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "661680"
+	},
+	"item": [
+		{
+			"name": "Add Models",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "customer01-spinifexit.stratolocal.com",
+						"type": "text"
+					},
+					{
+						"key": "X-TenantId",
+						"value": "synapse-spinifexit.stratolocal.com",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "entry01",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/models",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"models"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET models demo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "customer01-spinifexit.stratolocal.com",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "X-TenantID",
+						"value": "synapse-spinifexit.stratolocal.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/models",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"models"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
