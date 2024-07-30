@@ -1,2 +1,2 @@
 # buggy-project
-for applicant
+for Java Developer aapplicants
