@@ -15,3 +15,5 @@ This project contains the definition of dependencies that is common across the p
 ## multitenant-service
 This project contains controllers which define application API endpoints and handle HTTP requests.
 
+## Sequence Diagram
+![Sequence Diagram](https://github.com/sherlockb/buggy-project/blob/main/files/Screen%20Shot%202024-08-06%20at%203.36.11%20PM.png)
