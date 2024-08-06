@@ -31,7 +31,7 @@ To run the application, ensure the following environment variables are set:
 ## SQL Dump Restore
 The SQL dump required for this project should be restored from the following location:
 
-[SQL Dump](files)
+[SQL Dump](files/sql-dumps)
 
 ## Sequence Diagram
 ![Sequence Diagram](https://github.com/sherlockb/buggy-project/blob/main/files/Screen%20Shot%202024-08-06%20at%203.36.11%20PM.png)
