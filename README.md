@@ -1,6 +1,10 @@
 # buggy-project
 Hands-on exam for Java Developer applicants
 
+## Requirements
+- MySQL
+- Java 17
+
 # Multitenant Projects Overview
 
 ## multitenant-manager
