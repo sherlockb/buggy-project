@@ -1,5 +1,5 @@
 # buggy-project
-for Java Developer aapplicants
+Hands-on exam for Java Developer applicants
 
 # Multitenant Projects Overview
 
